@@ -18,13 +18,15 @@ public class Lab00
 	}
 	
 	// call a function
-	//todo
+	int num_found = char_count(y, 'l');
+	System.out.println("Found: " + num_found);
 
 	// a counting for loop
 	for(int i = 1; i < 11; i++)
 	{
 	    System.out.print(i + " ");
 	}
+	System.out.println();
    }
 
    public static int char_count(String s, char c)
@@ -34,7 +36,7 @@ public class Lab00
 	{
 	    if (s.charAt(i) == c)
 	    {
-		count++
+		count++;
 	    }
 	}
 	return count;
